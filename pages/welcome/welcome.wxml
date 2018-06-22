@@ -1,0 +1,18 @@
+<!--pages/welcome/welcome.wxml-->
+<!--<div>容器，分割文档中不同的部分 -->
+<!--<view> 容器，分割文档中不同的部分 -->
+<view class='container'>
+  <!--动态样式，会动态改变  -->
+  <!-- <image src='/images/1.jpg' style='width:200rpx;height:200rpx'></image> -->
+  <!--"pages/welcome/welcome"自动注册四个文件  -->
+  <!--静态样式不改变，效率更高  -->
+  <image class='user-avatar' src='/images/1.jpg'></image>
+
+  <!--可以不写 <text>。1、可以写样式；2、只有<text>包围的组件，才能在手机上长按选择  -->
+  <!--text嵌套修改颜色  -->
+  <!--text支持\n 换行 -->
+  <text class='user-name'><text style='color:red'>Hello</text> \nJery!</text>
+  <view class='moto-mototainer'>
+    <text  class='moto'>开启</text>
+  </view>
+</view>
